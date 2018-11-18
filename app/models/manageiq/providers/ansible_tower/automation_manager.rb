@@ -14,6 +14,7 @@ class ManageIQ::Providers::AnsibleTower::AutomationManager < ManageIQ::Providers
   require_nested :Satellite6Credential
   require_nested :VmwareCredential
   require_nested :RhvCredential
+  require_nested :TelefonicaCredential
 
   require_nested :ConfigurationScript
   require_nested :ConfigurationScriptSource
